@@ -2,7 +2,10 @@
 
 ## run test on change
 
-`watchexec -i zig-cache -e zig zig test test*`
+```shell
+% brew install watchexec
+% watchexec -i zig-cache -e zig zig test test*
+```
 
 ## zig version
 
